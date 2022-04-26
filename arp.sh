@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-IFACE=ens3 #change iface
+IFACE=eth0 #change iface
 
 while true
 do
