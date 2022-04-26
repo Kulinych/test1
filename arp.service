@@ -1,0 +1,12 @@
+[Unit]
+Description=arp_test
+
+[Service]
+ExecStart=/home/%USER%/arp.sh
+Restart=always
+User=nobody
+Group=nogroup
+
+[Install]
+WantedBy=multi-user.target
+
